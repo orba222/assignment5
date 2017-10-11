@@ -3,7 +3,12 @@ nav{
   color: black;
   size: 50px;
 }
-.jumbotron{
+.wrap{
   background-image: url("jay-wennington-2065.jpg");
-  background-size: cover;
+  width: 4402;
+  height: 2935;
+}
+.centered{
+  text-align:center;
+  line-height:200px;
 }
