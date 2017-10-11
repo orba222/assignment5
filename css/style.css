@@ -1,0 +1,9 @@
+nav{
+  font-family: Helvetica, sans-serif;
+  color: black;
+  size: 50px;
+}
+.jumbotron{
+  background-image: url("jay-wennington-2065.jpg");
+  background-size: cover;
+}
