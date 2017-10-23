@@ -1,14 +1,112 @@
-nav{
-  font-family: Helvetica, sans-serif;
-  color: black;
-  size: 50px;
+.nav{
+    list-style:none;
+    margin:0;
+    padding-right:10px;
+    padding-top: 15px;
+    text-align:right;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    color: white;
 }
-.wrap{
-  background-image: url("jay-wennington-2065.jpg");
-  width: 4402;
-  height: 2935;
+.nav a{
+  display:inline-block;
+  padding-right:10px;
+  padding-top: 0px;
 }
-.centered{
-  text-align:center;
-  line-height:200px;
+.nav a:visited {
+  text-decoration: none;
+  color: white;
+}
+.nav a:hover{
+  color: gray;
+  font-size: 15px;
+}
+#hero{
+  background-image: url("../images/luca-bravo-287775.jpg");
+  background-size: 100% auto;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#hero h1{
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+}
+#hero2{
+  background-image: url("../images/jay-wennington-2065 copy.jpg");
+  background-size: 100% auto;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#hero2 h1{
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  font-family: 'Playfair Display', serif;
+  font-size: 75px;
+}
+#hero3{
+  background-image: url("../images/peter-wendt-123928.jpg");
+  background-size: 100% auto;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#hero3 h1{
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+}
+h1{
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+}
+h2{
+  font-family: 'Lato', sans-serif;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-align: justify;
+}
+h3{
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.homepage-pad {
+  padding-left: 100px;
+  padding-top: 100px;
+}
+.homeimage-pad {
+  padding-top: 30px;
+}
+.aboutus-imgpad {
+  padding-top: 30px;
+}
+.menu-pad {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#names h1{
+  text-align: center;
+}
+#names h2{
+  text-align: left;
+}
+#names p{
+  text-align: left;
+}
+.test-color{
+  background-color: #D3D3D3;
+  background-size: 100% auto;
 }
